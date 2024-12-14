@@ -25,6 +25,10 @@ body {
 }
 
 .container {
+  -webkit-box-shadow: 20px 19px 5px -4px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 20px 19px 5px -4px rgba(0, 0, 0, 0.65);
+  box-shadow: 20px 19px 5px -4px rgba(0, 0, 0, 0.65);
+
   width: 100%;
   max-width: 384px;
   margin-left: auto;
@@ -59,6 +63,10 @@ body {
   opacity: 60%;
   cursor: pointer;
 }
+.features__link:active {
+  opacity: 60%;
+  cursor: pointer;
+}
 .features__text {
   font-weight: 500;
   font-size: 14px;
@@ -73,6 +81,10 @@ body {
   max-width: 336px;
 }
 .features__item:hover {
+  color: #34322a;
+  cursor: pointer;
+}
+.features__item:active {
   color: #f4d04e;
   cursor: pointer;
 }
